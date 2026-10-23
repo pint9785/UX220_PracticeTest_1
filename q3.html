@@ -8,10 +8,58 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
-        
+
+<style>
+           body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #0056b3; 
+            color: #ffffff; 
+        }
+    
+      main {
+            background-color: #f5f2eb; 
+            color: #000000; 
+        }
+
+        footer {
+            background-color: #2e7d32; 
+            color: #ffffff; 
+        }
+
+        header, main, footer {
+            font-weight: 400;
+        }
+
+        .noun {
+            font-weight: 600;
+        }
+</style>
+
+
+    
 </head>
 
-<body>
-</body>
+    <header> 
+The comparisons and contrasts between old fashioned typesetting with desktop publishing, html and css.
+    </header>
+    <body>
+<main>
+    <article> 
+    Even though old fashioned typesetting with desktop publishing, html and css have some similarities, they have many differences. Firstly, old fashioned typesetting is physical, it's on a paper with set typography blocks with a set layout. With HTML, it's more digital with it being on a computer, laptop, or iphone screen. HTML's whole job is to focus on headers, body text, footers, etc. It takes care of the content, not about how it looks. Just like HTML, CSS is digital, but it focuses mostly on the look of the content, such as the styles; the colours, the fonts, the look.
+    </article>
 
+ </main>   
+    <footer>
+        
+    </footer>
+
+
+
+
+</body>
 </html>
